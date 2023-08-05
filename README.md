@@ -11,7 +11,7 @@ Basic Concept: https://www.guyuehome.com/37292
 BA example: https://www.cnblogs.com/gaoxiang12/p/5304272.html
 
 # Install
-#####This installation process has been testified for `ubuntu:jammy-20230624` via docker.
+##### This installation process has been testified for `ubuntu:jammy-20230624` via docker.
 ### Install Requirement
 ```
 sudo apt update
@@ -54,7 +54,7 @@ sudo make install
 ```
 
 # g2o Pipeline
-![Alt text](https://github.com/hsyen23/ros2_control_example/blob/main/picture/realtime_tool.jpg "g2o pipeline")
+![Alt text](https://github.com/hsyen23/g2o_tutorial/blob/main/picture/g2o_pipeline.png "g2o pipeline")
 ```
 1. build a linear solver LinearSolver.
 2. build a BlockSolver, initialize it with predefined LinearSolver.
