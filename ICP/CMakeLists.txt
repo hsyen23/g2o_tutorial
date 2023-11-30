@@ -16,5 +16,5 @@ find_package(FMT REQUIRED)
 find_package(Sophus REQUIRED)
 include_directories(${Sophus_INCLUDE_DIRS})
 
-add_executable(knownDataAssociation knownDataAssociation.cpp)
-target_link_libraries(knownDataAssociation ${OpenCV_LIBS} g2o_core g2o_stuff Eigen3::Eigen fmt::fmt Sophus::Sophus)
+add_executable(g2o_ICP main.cpp)
+target_link_libraries(g2o_ICP ${OpenCV_LIBS} g2o_core g2o_stuff Eigen3::Eigen fmt::fmt Sophus::Sophus)
